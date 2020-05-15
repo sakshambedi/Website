@@ -1,0 +1,99 @@
+/*-----------------------------------------------------Head/Upper Part Starts from Here---------------------------------------------------------*/  
+
+/*Formating for Heading */ 
+.Name{
+font-family:'Karla', sans-serif;
+padding-top: 50px;
+padding-bottom:none;
+font-size:30px;
+text-align: center;
+  }
+
+/*Formating for Heading_1 */ 
+.Job{
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top:-30px;
+}
+
+/* Style the header */
+.header {
+  padding:-60px;
+  background:transparent;
+  color:#424242;
+  word-spacing: 15px;
+  font-family:'Karla', san-serif;
+  font-size: 20px;
+  text-align: center; 
+}
+
+/*-----------------------------------------------------Body Part Starts from Here------------------------------------------------------------*/
+
+/*Splits and formats the entire webiste into 2 parts*/
+.row {
+  display: flex;
+  width:70%;
+  align-content: center;
+  padding-left:15%;
+  padding-right:15%;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 100%; 
+}
+
+
+/* Format for Para_head */
+.para_head{
+     font-family:'Karla',san-serif;
+     font-size:50px;
+     padding-top:40px;
+     text-align: center;
+}
+
+/* Format for Para_head */
+.para_head_small{
+  font-family:'Karla',san-serif;
+  font-size:30px;
+  padding-top:-20px;
+  text-align: center;
+}
+
+/* Formating Para left text*/
+.para_left{
+left:0;
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 20px;
+padding-top:5px;
+padding-right:5px;
+}
+
+/* Formating Para left text*/
+.para_left_center{
+  left:0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 20px;
+  padding-top:-20px;
+  text-align:center;
+  color: #424242;
+  padding-right:5px;
+  }
+
+/*Change line spacing between List Item*/
+.li{
+padding-bottom:4px 0;
+}
+
+/*Formatting para right text*/
+.para_right{
+  left:0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 20px;
+  padding-top:5px;
+  padding-left:5px; 
+}
+

@@ -1,0 +1,48 @@
+/* unvisited link */
+ .header a:link {
+    color:#616161;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  .header a:visited {
+    color: #ff8f00;
+    text-decoration:none;
+  }
+  
+  /* mouse over link */
+  .header a:hover {
+    color:#e65100;
+    text-decoration:underline; 
+  }
+  
+  /* selected link */
+  .header a:active {
+    color:Default;
+    text-decoration: none;
+  }  
+   
+  /*-----------------------------------------------Para Link Formatting-----------------------------------------------------*/
+
+  .para_right a:link,.para_left a:link {
+    color:black;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  .para_right a:visited,.para_left a:visited {
+    color: black;
+    text-decoration:none;
+  }
+  
+  /* mouse over link */
+  .para_right a:hover,.para_left a:hover {
+    color:#e65100;
+    text-decoration:none; 
+  }
+  
+  /* selected link */
+  .para_right a:active ,.para_left a:active {
+    color:Default;
+    text-decoration: none;
+  }  
